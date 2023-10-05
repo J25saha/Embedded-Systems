@@ -13,7 +13,7 @@ LCD_16X2_DISPLAY lcd;
 int main() 
 {
     // Write to serial terminal on host PC
-    printf("PUMPKIN!\n");
+    printf("Hello World\n");
 
     // Clear the LCD screen
     lcd.cls();
@@ -27,7 +27,7 @@ int main()
     ledBlue = 0;
 
     // Write to LCD using the LCD_16X2_DISPLAY driver class
-    lcd.printf("PUMPKIN!");
+    lcd.printf("Hello World");
     lcd.locate(1, 0);   //Row 1, Col 0
     lcd.printf("ELEC143");
 
